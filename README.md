@@ -4,7 +4,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/mit) [![NPM](https://img.shields.io/npm/v/react-textarea-emoji.svg)](https://www.npmjs.com/package/react-textarea-emoji) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[Demo page](https://thibsc.github.io/react-textarea-emoji/)
+[Demo page](https://thibsc.github.io/react-textarea-emoji/)  
+<kbd>↑</kbd>/<kbd>↓</kbd> Move the selection in the emoji list  
+<kbd>Enter</kbd> Validate the selection  
+<kbd>Escape</kbd> Leave the emoji list selection
 
 ## Install
 
