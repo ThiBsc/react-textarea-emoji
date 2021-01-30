@@ -1,6 +1,6 @@
 {
-  "short_name": "@thibsc/react-textarea-emoji",
-  "name": "@thibsc/react-textarea-emoji",
+  "short_name": "react-textarea-emoji",
+  "name": "react-textarea-emoji",
   "icons": [
     {
       "src": "favicon.ico",

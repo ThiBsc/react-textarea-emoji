@@ -1,5 +1,5 @@
 {
-  "name": "@thibsc/react-textarea-emoji",
+  "name": "react-textarea-emoji",
   "version": "1.0.0",
   "description": "Text Area to use emojis while typing",
   "author": "thibsc",
@@ -49,5 +49,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }

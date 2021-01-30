@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { TextAreaEmoji } from '.'
 
-describe('ExampleComponent', () => {
+describe('TextAreaEmoji', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(TextAreaEmoji).toBeTruthy()
   })
 })

@@ -1,13 +1,13 @@
-# @thibsc/react-textarea-emoji
+# react-textarea-emoji
 
 > Text Area to use emojis while typing
 
-[![NPM](https://img.shields.io/npm/v/@thibsc/react-textarea-emoji.svg)](https://www.npmjs.com/package/@thibsc/react-textarea-emoji) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/mit) [![NPM](https://img.shields.io/npm/v/react-textarea-emoji.svg)](https://www.npmjs.com/package/react-textarea-emoji) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @thibsc/react-textarea-emoji
+npm install --save react-textarea-emoji
 ```
 
 ## Usage
@@ -15,16 +15,31 @@ npm install --save @thibsc/react-textarea-emoji
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from '@thibsc/react-textarea-emoji'
-import '@thibsc/react-textarea-emoji/dist/index.css'
+import { TextAreaEmoji } from 'react-textarea-emoji'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <TextAreaEmoji
+        style={{
+          position: 'fixed',
+          top: '30%',
+          left: '50%',
+          transform: 'translateX(-50%)',
+        }}
+        textAreaStyle={{
+          fontSize: '20pt',
+        }}/>
+    );
   }
 }
+
+export default Example
 ```
 
-## License
-
-MIT © [thibsc](https://github.com/thibsc)
+## Emojis
+The emoji list is actually small, to increase the possibility, just complete the file by adding a json object in the emojis object array:
+```json
+{"char": "🌷", "name": "tulip", "shortname": ":tulip:", "unicode": "1f337"}
+```

@@ -1,0 +1,15 @@
+{
+	"emojis": [
+		{ "char": "🎂", "name": "birthday cake","shortname": ":birthday:",	"unicode": "1f382" },
+		{ "char": "🌵", "name": "cactus",		"shortname": ":cactus:",	"unicode": "1F335" },
+		{ "char": "🐱",	"name": "cat face",		"shortname": ":cat:",		"unicode": "1f431" },
+		{ "char": "☕",	"name": "coffee",		"shortname": ":coffee:",	"unicode": "2615" },
+		{ "char": "💻", "name": "computer",		"shortname": ":computer:",	"unicode": "1F4BB" },
+		{ "char": "🍆", "name": "eggplant",		"shortname": ":eggplant:",	"unicode": "1F346" },
+		{ "char": "🍃", "name": "green leaves", "shortname": ":leaves:",	"unicode": "1F343"},
+		{ "char": "🍑", "name": "peach", 		"shortname": ":peach:",		"unicode": "1F351"},
+		{ "char": "❤️",	"name": "red heart",	"shortname": ":red_heart:",	"unicode": "2764" },
+		{ "char": "💦",	"name": "sweat drops",	"shortname": ":sweat_drops:","unicode": "1F4A6" },
+		{ "char": "🌷", "name": "tulip", 		"shortname": ":tulip:",		"unicode": "1f337" }
+	]
+}

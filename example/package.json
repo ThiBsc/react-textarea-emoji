@@ -1,5 +1,5 @@
 {
-  "name": "@thibsc/react-textarea-emoji-example",
+  "name": "react-textarea-emoji-example",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -10,10 +10,11 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
-    "@thibsc/react-textarea-emoji": "file:.."
+    "react-textarea-emoji": "file:.."
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"

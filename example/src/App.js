@@ -1,10 +1,21 @@
 import React from 'react'
 
-import { ExampleComponent } from '@thibsc/react-textarea-emoji'
-import '@thibsc/react-textarea-emoji/dist/index.css'
+import { TextAreaEmoji } from 'react-textarea-emoji'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <TextAreaEmoji
+      style={{
+        position: 'fixed',
+        top: '30%',
+        left: '50%',
+        transform: 'translateX(-50%)',
+      }}
+      textAreaStyle={{
+        fontSize: '20pt',
+      }}/>
+  );
 }
 
 export default App
