@@ -1,0 +1,18 @@
+/* add css module styles here (optional) */
+
+.textareaEmoji {
+  resize: both;
+}
+
+.emojiSelector {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 100%;
+  font-size: 0.8em;
+  transform: translate(-50%, -100%);
+}
+
+.emoji:hover {
+  cursor: pointer;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import emojis from './emoji'
-import '../assets/TextAreaEmoji.css'
+import styles from './styles.module.css'
 
 export class TextAreaEmoji extends React.Component {
 	constructor(props) {
@@ -158,23 +158,22 @@ export class TextAreaEmoji extends React.Component {
 	render() {
 		return (
 			<div
-				className={'textarea-emoji'}
 				style={this.props.style}>
 				<textarea
 					ref={(textArea) => this.textArea = textArea}
 					style={this.props.textAreaStyle}
 					value={this.state.textValue}
-					className={"form-control textarea-emoji"}
+					className={`form-control ${styles.textareaEmoji}`}
 					onChange={this.handleChange}
 					onKeyDown={this.handleKeyDown} />
 
-					<div className={"list-group emoji-selector"}>
+					<div className={`list-group ${styles.emojiSelector}`}>
 					{
 					this.state.propositions.map((emoji, index) => {
 						let className = 
 							(index === this.state.emojiSelected ?
-								"emoji py-1 list-group-item list-group-item-action list-group-item-info"
-								: "emoji py-1 list-group-item list-group-item-action");
+								`${styles.emoji} py-1 list-group-item list-group-item-action list-group-item-info`
+								: `${styles.emoji} py-1 list-group-item list-group-item-action`);
 						return <span 
 									key={emoji.unicode}
 									id={emoji.shortname}
