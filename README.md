@@ -28,6 +28,7 @@ import React, { Component } from 'react'
 
 import { TextAreaEmoji } from 'react-textarea-emoji'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'react-textarea-emoji/dist/index.css';
 
 class Example extends Component {
   render() {
