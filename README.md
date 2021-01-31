@@ -7,7 +7,8 @@
 [Demo page](https://thibsc.github.io/react-textarea-emoji/)  
 <kbd>↑</kbd>/<kbd>↓</kbd> Move the selection in the emoji list  
 <kbd>Enter</kbd> Validate the selection  
-<kbd>Escape</kbd> Leave the emoji list selection
+<kbd>Escape</kbd> Leave the emoji list selection  
+The emoji list appears automatically when typing a colon followed by a letter `:a`
 
 ## Install
 
