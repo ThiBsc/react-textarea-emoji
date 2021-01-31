@@ -15,6 +15,12 @@
 npm install --save react-textarea-emoji
 ```
 
+## Props
+
+| Name | Description |
+|---|---|
+|textAreaStyle| Set a particular style to the textarea
+
 ## Usage
 
 ```jsx
